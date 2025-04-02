@@ -1,0 +1,144 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 0.5em 1em;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 1em;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    background: white;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: rgb(219, 35, 35);
+      width: 100%;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+
+    img {
+        size: 10%; 
+    }
+  }
+
+  
+main {
+
+    h1 {
+        text-align: center;
+        padding: 5%;
+    }
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    align-items: baseline;
+  }
+  
+  footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  footer .social-links {
+    margin-top: 20px;
+  }
+  
+  footer .social-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  
