@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: #58795D;  
     color: white;
     padding: 0.5em 0em;
     z-index: 500;
@@ -97,9 +97,15 @@ main {
       color: white;
 
       }
+
+    
+    h2 {
+      text-align: center;
+    }
+    background-color: #02C7CC;
 }
 
-.container {
+.bg_container {
   margin: 0;
   padding: 0;
 }
@@ -118,14 +124,18 @@ main {
 
   display: grid;
   place-items: center;
-  height: 100vh;
+  
 
 
 }
 
-.logoo {
+.big_logo {
   z-index:50;
   border-radius: 20px;
+  height: 75vh;
+  width: auto;
+
+
 }
 
 .text-overlay {
@@ -137,10 +147,28 @@ main {
   font-size: 24px; /* Font size */
   font-weight: bold; /* Optional: make text bold */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: adds shadow for readability */
+  margin-top: 250px;
 }
 
+.office_container {
+  border-style: solid;
+  border-width: 100px;
+  border-color: #58795D;
+  background-color: #58795D;
+  width: 100%;
+  border-radius: 70px;
+}
 
+.office_img {
+  height: 75vh;
+  width: auto;
+  margin-left: 10px;
+  
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 50px;
 
+}
 
 
 
