@@ -3,50 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Hotbeans</title>
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
+  <title>Careers - Hotbeans</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-    <div class="logo">
-    <a href="index.html"><img src="img/logo.png" alt="Hotbeans" class="logo-img"></a> 
-    </div>
-
-      <ul class="nav-links">
-        <li><a href="team.html">Meet the Team</a></li>
-        <li><a href="courses.html">Web Development Courses</a></li>
-        <li><a href="careers.html">Careers</a></li>
-      </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+    <!-- Header with Navigation -->
+    <header>
+      <div class="container">
+          <nav>
+              <div class="logo">Hot<span>BeansWeb</span></div>
+              <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="careers.html" class="active">Careers</a></li>
+                  <li><a href="courses.html">Resources</a></li>
+              </ul>
+          </nav>
       </div>
-    </nav>
   </header>
 
 
-  <main>
-    <h1>Careers</h1>
-    <p>Explore our services and gallery.</p>
-  </main>
-
-  <footer>
-    <div class="footer-content">
-      <h2>Contact Us</h2>
-      <p>We'd love to hear from you! Reach out to us:</p>
-      <ul>
-        <li>Email: <a href="mailto:contact@hotbeans.com">contactus@hotbeansweb.co.uk</a></li>
-        <li>Phone: 01733 762255</li>
-        <li>Address: 75 Broadway, Peterborough, PE1 1SY</li>
-      </ul>
-      <div class="social-links">
-        <a href="https://www.facebook.com/hotbeans" target="_blank">Facebook</a>
-        <a href="https://twitter.com/hotbeans" target="_blank">Twitter</a>
-        <a href="https://www.instagram.com/hotbeans" target="_blank">Instagram</a>
-      </div>
+   <!-- Job Specifications Section -->
+   <section id="jobs" class="section">
+    <div class="container">
+        <h2 class="section-title">Current <span>Opportunities</span></h2>
+        <div class="jobs-container">
+            <div class="job-card">
+                <h3 class="job-title">Junior Frontend Developer</h3>
+                <div class="job-meta">
+                    <span>Full-time</span>
+                    <span>Entry-level</span>
+                    <span>Remote Optional</span>
+                </div>
+                <div class="job-description">
+                    <p>We're looking for a talented Junior Frontend Developer to join our growing team. In this role, you'll work closely with senior developers and designers to build engaging user interfaces for our clients.</p>
+                </div>
+                <div class="job-requirements">
+                    <h4>Key Responsibilities:</h4>
+                    <ul>
+                        <li>Develop responsive web interfaces using HTML, CSS, and JavaScript</li>
+                        <li>Implement designs from Figma/Adobe XD wireframes</li>
+                        <li>Work with modern frontend frameworks like React or Vue</li>
+                        <li>Collaborate with the team for code reviews and problem-solving</li>
+                        <li>Test and debug code to ensure cross-browser compatibility</li>
+                    </ul>
+                </div>
+                <div class="job-qualifications">
+                    <h4>Required Qualifications:</h4>
+                    <ul>
+                        <li>Degree in Computer Science, Web Development, or related field OR completion of a recognized coding bootcamp</li>
+                        <li>Strong understanding of HTML5, CSS3, and modern JavaScript (ES6+)</li>
+                        <li>Basic knowledge of at least one JavaScript framework (React preferred)</li>
+                        <li>Understanding of responsive design principles</li>
+                        <li>Familiarity with version control systems (Git)</li>
+                    </ul>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <a href="apply.html" class="btn">Apply for this Position</a>
+                </div>
+            </div>
+            
+            <div class="job-card">
+                <h3 class="job-title">Junior Backend Developer</h3>
+                <div class="job-meta">
+                    <span>Full-time</span>
+                    <span>Entry-level</span>
+                    <span>Remote Optional</span>
+                </div>
+                <div class="job-description">
+                    <p>We're seeking a Junior Backend Developer to help build robust server-side applications. This role is perfect for someone who enjoys working with databases and server architecture.</p>
+                </div>
+                <div class="job-requirements">
+                    <h4>Key Responsibilities:</h4>
+                    <ul>
+                        <li>Develop and maintain server-side logic using Node.js, Python, or PHP</li>
+                        <li>Design and implement database schemas and queries</li>
+                        <li>Create and maintain RESTful APIs</li>
+                        <li>Implement authentication and authorization mechanisms</li>
+                        <li>Work with senior developers to optimize application performance</li>
+                    </ul>
+                </div>
+                <div class="job-qualifications">
+                    <h4>Required Qualifications:</h4>
+                    <ul>
+                        <li>Degree in Computer Science, Software Engineering, or related field OR completion of a recognized coding bootcamp</li>
+                        <li>Knowledge of at least one backend language (Node.js, Python, PHP)</li>
+                        <li>Basic understanding of database systems (SQL and NoSQL)</li>
+                        <li>Familiarity with API design principles</li>
+                        <li>Basic understanding of web security practices</li>
+                    </ul>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <a href="apply.html" class="btn">Apply for this Position</a>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-column">
+                  <h3>Hot Beans Web</h3>
+                  <p>Creating innovative web solutions and nurturing the next generation of web development talent.</p>
+                  <br>
+                  <p>We'd love to hear from you! Reach out to us:</p>
+              </div>
+              <div class="footer-column">
+                  <h3>Contact</h3>
+                  <ul class="footer-links">
+                      <li>75 Broadway</li>
+                      <li>Peterborough, PE1 1SY</li>
+                      <li>Email: contactus@hotbeansweb.co.uk</li>
+                      <li>Phone: 01733 762255</li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3>Quick Links</h3>
+                  <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="courses.html">Resources</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Social Media</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.facebook.com/hotbeans" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/hotbeans" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/hotbeans" target="_blank">Instagram</a></li>
+                </ul>
+              </div>
+
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
+          </div>
+      </div>
   </footer>
 
 

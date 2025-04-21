@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hot Beans Web - Apply</title>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Hot<span>BeansWeb</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="courses.html">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Application Form Section -->
+    <section id="apply" class="section apply-section">
+        <div class="container">
+            <h2 class="section-title">Apply Now</h2>
+            <div class="form-container">
+                <form id="application-form">
+                    <div class="form-group">
+                        <label for="position">Position You're Applying For</label>
+                        <select id="position" required>
+                            <option value="">Select a position</option>
+                            <option value="frontend">Junior Frontend Developer</option>
+                            <option value="backend">Junior Backend Developer</option>
+                            <option value="fullstack">Junior Full Stack Developer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="education">Highest Education/Training</label>
+                        <select id="education" required>
+                            <option value="">Select your highest education</option>
+                            <option value="bootcamp">Coding Bootcamp</option>
+                            <option value="associates">Associate's Degree</option>
+                            <option value="bachelor">Bachelor's Degree</option>
+                            <option value="master">Master's Degree</option>
+                            <option value="phd">PhD</option>
+                            <option value="self">Self-taught</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Years of Experience</label>
+                        <select id="experience" required>
+                            <option value="">Select experience level</option>
+                            <option value="0-1">0-1 years</option>
+                            <option value="1-2">1-2 years</option>
+                            <option value="2-3">2-3 years</option>
+                            <option value="3+">3+ years</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="portfolio">Portfolio URL (if available)</label>
+                        <input type="url" id="portfolio">
+                    </div>
+                    <div class="form-group">
+                        <label for="github">GitHub/GitLab Profile URL</label>
+                        <input type="url" id="github">
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">Upload Resume/CV (PDF)</label>
+                        <input type="file" id="resume" accept=".pdf" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cover">Cover Letter</label>
+                        <textarea id="cover" placeholder="Tell us why you're interested in joining Hot Beans Web and what you would bring to our team"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="skills">Skills (Select all that apply)</label>
+                        <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem;">
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="html" name="skills">
+                                <label for="html" style="display: inline;">HTML</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="css" name="skills">
+                                <label for="css" style="display: inline;">CSS</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="js" name="skills">
+                                <label for="js" style="display: inline;">JavaScript</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="react" name="skills">
+                                <label for="react" style="display: inline;">React</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="vue" name="skills">
+                                <label for="vue" style="display: inline;">Vue</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="node" name="skills">
+                                <label for="node" style="display: inline;">Node.js</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="php" name="skills">
+                                <label for="php" style="display: inline;">PHP</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="python" name="skills">
+                                <label for="python" style="display: inline;">Python</label>
+                            </div>
+                            <div style="min-width: 150px;">
+                                <input type="checkbox" id="sql" name="skills">
+                                <label for="sql" style="display: inline;">SQL</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="start">Availability to Start</label>
+                        <input type="date" id="start" required>
+                    </div>
+                    <button type="submit" class="submit-btn" href="thanks.html">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Hot Beans Web</h3>
+                    <p>Creating innovative web solutions and nurturing the next generation of web development talent.</p>
+                    <br>
+                    <p>We'd love to hear from you! Reach out to us:</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li>75 Broadway</li>
+                        <li>Peterborough, PE1 1SY</li>
+                        <li>Email: contactus@hotbeansweb.co.uk</li>
+                        <li>Phone: 01733 762255</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="courses.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Social Media</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.facebook.com/hotbeans" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/hotbeans" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/hotbeans" target="_blank">Instagram</a></li>
+                    </ul>
+                  </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

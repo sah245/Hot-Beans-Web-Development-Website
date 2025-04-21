@@ -3,50 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Hotbeans</title>
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
+  <title>Courses - Hotbeans</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-    <div class="logo">
-    <a href="index.html"><img src="img/logo.png" alt="Hotbeans" class="logo-img"></a> 
-    </div>
-
-      <ul class="nav-links">
-        <li><a href="team.html">Meet the Team</a></li>
-        <li><a href="courses.html">Web Development Courses</a></li>
-        <li><a href="careers.html">Careers</a></li>
-      </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+    <!-- Header with Navigation -->
+    <header>
+      <div class="container">
+          <nav>
+              <div class="logo">Hot<span>BeansWeb</span></div>
+              <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="careers.html">Careers</a></li>
+                  <li><a href="courses.html" class="active">Resources</a></li>
+              </ul>
+          </nav>
       </div>
-    </nav>
   </header>
 
 
-  <main>
-    <h1>Web Development Courses</h1>
-    <p>Explore our services and gallery.</p>
-  </main>
-
-  <footer>
-    <div class="footer-content">
-      <h2>Contact Us</h2>
-      <p>We'd love to hear from you! Reach out to us:</p>
-      <ul>
-        <li>Email: <a href="mailto:contact@hotbeans.com">contactus@hotbeansweb.co.uk</a></li>
-        <li>Phone: 01733 762255</li>
-        <li>Address: 75 Broadway, Peterborough, PE1 1SY</li>
-      </ul>
-      <div class="social-links">
-        <a href="https://www.facebook.com/hotbeans" target="_blank">Facebook</a>
-        <a href="https://twitter.com/hotbeans" target="_blank">Twitter</a>
-        <a href="https://www.instagram.com/hotbeans" target="_blank">Instagram</a>
+    <!-- Learning Resources Section -->
+    <section id="resources" class="section resources">
+      <div class="container">
+          <h2 class="section-title">Web Development <span>Resources</span></h2>
+          <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem;">Looking to enhance your skills? Check out these recommended courses and resources that can help you prepare for a career at Hot Beans Web.</p>
+          <div class="resources-grid">
+              <div class="resource-card">
+                  <div class="resource-image">
+                      <img src="https://static.frontendmasters.com/assets/fm/med/welcome/og-GitHubStudents.jpg" alt="Frontend Masters">
+                  </div>
+                  <div class="resource-info">
+                      <h3>Frontend Masters</h3>
+                      <p>Comprehensive courses on modern frontend development, taught by industry experts.</p>
+                      <a href="https://frontendmasters.com/courses/" class="btn">Learn More</a>
+                  </div>
+              </div>
+              <div class="resource-card">
+                  <div class="resource-image">
+                      <img src="https://shorturl.at/oqOod" alt="Full Stack Open">
+                  </div>
+                  <div class="resource-info">
+                      <h3>Full Stack Open</h3>
+                      <p>Free, university-level full stack course focusing on modern JavaScript-based web development.</p>
+                      <a href="https://fullstackopen.com/en/" class="btn">Learn More</a>
+                  </div>
+              </div>
+              <div class="resource-card">
+                  <div class="resource-image">
+                      <img src="https://sm.pcmag.com/pcmag_uk/review/c/codecademy/codecademy_rps1.png" alt="Codeacademy">
+                  </div>
+                  <div class="resource-info">
+                      <h3>Codeacademy</h3>
+                      <p>Web development courses at Codecademy helps you master HTML, CSS, JavaScript, React, and more. Learn to build web apps and websites.</p>
+                      <a href="https://www.codecademy.com/catalog/subject/web-development" class="btn">Learn More</a>
+                  </div>
+              </div>
+              <div class="resource-card">
+                  <div class="resource-image">
+                      <img src="https://sm.pcmag.com/pcmag_uk/review/c/coursera/coursera_4k3m.jpg" alt="Coursera">
+                  </div>
+                  <div class="resource-info">
+                      <h3>Coursera</h3>
+                      <p>Learn web development for building websites and applications. Understand front-end and back-end technologies, frameworks, and tools.</p>
+                      <a href="https://www.coursera.org/courses?query=web%20development" class="btn">Learn More</a>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-column">
+                  <h3>Hot Beans Web</h3>
+                  <p>Creating innovative web solutions and nurturing the next generation of web development talent.</p>
+                  <br>
+                  <p>We'd love to hear from you! Reach out to us:</p>
+              </div>
+              <div class="footer-column">
+                  <h3>Contact</h3>
+                  <ul class="footer-links">
+                      <li>75 Broadway</li>
+                      <li>Peterborough, PE1 1SY</li>
+                      <li>Email: contactus@hotbeansweb.co.uk</li>
+                      <li>Phone: 01733 762255</li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3>Quick Links</h3>
+                  <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="courses.html">Resources</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Social Media</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.facebook.com/hotbeans" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/hotbeans" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/hotbeans" target="_blank">Instagram</a></li>
+                </ul>
+              </div>
+
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
+          </div>
+      </div>
   </footer>
 
 
