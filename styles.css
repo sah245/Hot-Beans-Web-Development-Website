@@ -123,7 +123,7 @@ nav {
 
 .btn {
   display: inline-block;
-  background-color: var(--accent-orange);
+  background: linear-gradient(90deg, var(--primary-teal), transparent) var(--primary-blue);
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
@@ -132,8 +132,8 @@ nav {
   transition: background-color 0.3s;
 }
 
-.btn:hover {
-  background-color: #e55a24;
+.btn:hover,.btn:focus {
+  background-color: var(--dark-green)
 }
 
 .btn-secondary {
@@ -193,6 +193,18 @@ nav {
   margin-bottom: 1rem;
 }
 
+.privacy-text {
+  flex: 1;
+}
+
+.privacy-text h3 {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.privacy-text p {
+  margin-bottom: 1rem;
+}
 .stats {
   display: flex;
   justify-content: space-around;
@@ -274,17 +286,18 @@ nav {
 
 .center-button {
   display: inline-block;
-  background-color: var(--accent-orange); 
-  color: white;
+  background: linear-gradient(90deg, var(--primary-teal), transparent) var(--primary-blue);
+  color: var(--white);
   padding: 12px 30px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s;
 }
 
-.center-button:hover {
-  background-color: #e85a24; 
+.center-button:hover, .center-button:focus {
+  background-color: var(--dark-green);
+  color: var(--white);  
 }
 
 .jobs-container {
@@ -331,12 +344,14 @@ nav {
   margin-bottom: 1rem;
 }
 
-.job-requirements h4, 
+.job-requirements h4,
+.job-description h4, 
 .job-qualifications h4 {
   color: var(--primary-blue);
   margin: 1rem 0 0.5rem;
 }
 
+.job-description ul,
 .job-requirements ul,
 .job-qualifications ul {
   padding-left: 1.5rem;
@@ -382,22 +397,6 @@ input:focus, select:focus, textarea:focus {
 
 textarea {
   min-height: 150px;
-}
-
-.submit-btn {
-  background-color: var(--accent-orange);
-  color: white;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.submit-btn:hover {
-  background-color: #e55a24;
 }
 
 .resources {
