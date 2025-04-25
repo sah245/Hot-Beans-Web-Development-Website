@@ -40,6 +40,7 @@ header {
   margin: 0 auto;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -555,6 +556,10 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
   .nav-links {
       display: none;
       flex-direction: column;
@@ -564,6 +569,11 @@ footer {
     display: flex;
   }
   
+  .nav-links li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
   .about-content {
       flex-direction: column;
   }
