@@ -91,15 +91,39 @@ I also decided to use gradients like the one in the logo to add some flair to th
 |--------|--------|
 | [![logo.png](https://i.postimg.cc/HkVbBJ9T/logo.png)](https://postimg.cc/TKvyP3ss) | [![Hot-Beans-Colour-Palette.png](https://i.postimg.cc/9FPkCn6D/Hot-Beans-Colour-Palette.png)](https://postimg.cc/crHhcX4W) |
 
+### Design Feeback
+
+After contacting colleagues to look over my design, they informed one big improvement I could make:
+
+**"The only issue I have is that the select colour scheme is conflicting. The use of blue does not blend with the colour of the logo. I recommended revising the colour palette you are planning to use to keep your website looking fresh and professional."**
+
 # Development Justification
 
 ### Justification of design decisions
 
+I decided to do my layout such that the homepage has a taste of everything in one page, and if users want more information, they are then prompted to travel onto that specific page that has more information. 
 
+I opted to use flexboxes throughout the website, this is because flexboxes adapt well to different screen sizes, so the website is more accessible on mobile devices. It also makes it easier to arrange elements in a container, even when the content size is dynamic.
+
+For website navigation, I used a navbar due to its familiarity and ease of scanning across primary pages like Home, About, Careers etc.
+I also implemented a hamburger menu for mobile views to conserve space and maintain a clean layout. Navigation placement is consistent across all webpages to minimise confusion and improve familiarity.
+
+Call to actions like "Apply for this position" and "Learn more..." are visually distinguished utilising the colour scheme to make it stand out, the buttons also have gradient transitions to highlight that they are clickable objects that can be interacted with. This is done to draw attention and have users engage with the website.
 
 ### Optimisation of Website
 
 ### Review of client requirements
+
+The client (HotBeansWeb) wanted a website that contained:
+- A profile of the company itself
+- profiles of existing trainee web developers
+- job specifications and required qualifications
+- an online application form
+- links to web development courses
+
+The target audience is people who have completed training courses or have gained related qualifications and are looking for an industry job.
+
+I met all the basic requirements that the client had requested, I have small pieces of each requriement on the homepage, and seperate webpages that go into further detail on each requirement.
 
 ### Evaluation of Design & Optimised website
 
@@ -121,4 +145,4 @@ I also decided to use gradients like the one in the logo to add some flair to th
 
 ### Peer and Tutor feedback responses - Document Feedback receieved.
 
-
+[![hotbeans-web-feedback-screenshot.png](https://i.postimg.cc/s2VX4zBD/hotbeans-web-feedback-screenshot.png)](https://postimg.cc/ZWM4J1F1)
