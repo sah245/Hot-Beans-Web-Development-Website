@@ -97,13 +97,15 @@ After contacting colleagues to look over my design, they informed one big improv
 
 **"The only issue I have is that the select colour scheme is conflicting. The use of blue does not blend with the colour of the logo. I recommended revising the colour palette you are planning to use to keep your website looking fresh and professional."**
 
+[![hotbeans-web-feedback-screenshot.png](https://i.postimg.cc/s2VX4zBD/hotbeans-web-feedback-screenshot.png)](https://postimg.cc/ZWM4J1F1)
+
 # Development Justification
 
 ### Justification of design decisions
 
-I decided to do my layout such that the homepage has a taste of everything in one page, and if users want more information, they are then prompted to travel onto that specific page that has more information. 
+I decided to do my layout such that the homepage has a taste of everything in one page, and if users want more information, they are then prompted to travel onto that specific page that has more information. This meets the users needs as the website's layouts and contents will have exactly what they (clients and users alike) are looking for.
 
-I opted to use flexboxes throughout the website, this is because flexboxes adapt well to different screen sizes, so the website is more accessible on mobile devices. It also makes it easier to arrange elements in a container, even when the content size is dynamic.
+I opted to use flexboxes throughout the website, this is because flexboxes adapt well to different screen sizes, so the website is more accessible on mobile devices. It also makes it easier to arrange elements in a container, even when the content size is dynamic. This is fit for purpose as users of the website may use all kinds of devices to access the website, so accommodating this allows for all users to be able to use the website effectively.
 
 For website navigation, I used a navbar due to its familiarity and ease of scanning across primary pages like Home, About, Careers etc.
 I also implemented a hamburger menu for mobile views to conserve space and maintain a clean layout. Navigation placement is consistent across all webpages to minimise confusion and improve familiarity.
@@ -111,6 +113,17 @@ I also implemented a hamburger menu for mobile views to conserve space and maint
 Call to actions like "Apply for this position" and "Learn more..." are visually distinguished utilising the colour scheme to make it stand out, the buttons also have gradient transitions to highlight that they are clickable objects that can be interacted with. This is done to draw attention and have users engage with the website.
 
 ### Optimisation of Website
+
+After completing my website to a satisfactory level, I reached out to my colleague (Cory Callicott) to see if he can inform any optimisations to my website:
+
+[![Hotbeans_optimisations.png](https://i.postimg.cc/9031tXkg/Screenshot-2025-05-08-185214.png)](https://postimg.cc/620dBKtC)
+
+This optimisation was fairly simple to implement, I changed the button colours from orange to a teal/green gradient that follows the webiste's colour scheme, making the website feel more professional as a whole.
+
+| Before   | After |
+|--------|--------|
+| [![Button_Before.png](https://i.postimg.cc/13Pm7p6s/Screenshot-2025-05-08-190155.png)](https://postimg.cc/nCRfC90P) | [![Button_After.png](https://i.postimg.cc/tRZ4sRpQ/Screenshot-2025-05-08-190146.png)](https://postimg.cc/PNHjcjC2) |
+
 
 ### Review of client requirements
 
@@ -123,26 +136,32 @@ The client (HotBeansWeb) wanted a website that contained:
 
 The target audience is people who have completed training courses or have gained related qualifications and are looking for an industry job.
 
-I met all the basic requirements that the client had requested, I have small pieces of each requriement on the homepage, and seperate webpages that go into further detail on each requirement.
-
-### Evaluation of Design & Optimised website
-
-### Demonstration of individual responsibility and creativity
+I have fully met all the basic requirements that the client had requested, I have small pieces of each requriement on the homepage, and seperate webpages that go into further detail on each requirement.
 
 # Testing Documentation
 
 ### Test Plan - Test Cases & Results
-
-### Bug Tracking Log
+| Test Number | Feature Tested        | Test Steps                            | Expected Result                        | Actual Result     | Pass/Fail | Notes                 |
+| ------------ | --------------------- | ------------------------------------- | -------------------------------------- | ----------------- | --------- | --------------------- |
+| T-1        | Homepage loads        | Open homepage in browser              | Homepage displays correctly            | As expected       | Pass      |                       |
+| T-2        | Navigation bar        | Click each menu item                  | User is taken to correct page          | About page broken | Fail      | Link not working      |
+| T-2a       | Navigation bar        | Click each menu item                  | User is taken to correct page          | As expected | Pass      | Fixed broken links      |
+| T-3        | Application form      | Fill and submit form with valid input | Form submits and shows success message | Form submits      | Pass      |                       |
+| T-4        | Form submit           | Pressing submit button redirects to thank you page   | redirect to thank you page            | As expected | Passed      | Could add form validation to ensure |
+| T-5        | Mobile responsiveness | Open site on mobile device            | Layout adjusts to mobile screen        | Layout good       | Pass      |                       |
+| T-6        | Mobile navigation | click hamburger menu on mobile view           | hamburger menu opens       | As expected      | Pass      |                       |
 
 ### Usability testing feedback
 
 # Evaluation and improvements
 
-### Final Evaluation
+### Evaluation of Design & Optimised website against client requirements
+
+This evaluation assesses the final website against the client's requirements, which included: a profile of the company, profiles of existing trainee developers, job specifications and required qualifications, an online applciation form and external links to web development courses. The purpose of this evaluation is to determine whether the website effectively meets these goals in terms of design, functionality, usablilty and performance.
+
+### Demonstration of individual responsibility and creativity
 
 ### Potential future improvements
 
 ### Peer and Tutor feedback responses - Document Feedback receieved.
 
-[![hotbeans-web-feedback-screenshot.png](https://i.postimg.cc/s2VX4zBD/hotbeans-web-feedback-screenshot.png)](https://postimg.cc/ZWM4J1F1)
