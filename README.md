@@ -147,9 +147,11 @@ I have fully met all the basic requirements that the client had requested, I hav
 | T-2        | Navigation bar        | Click each menu item                  | User is taken to correct page          | About page broken | Fail      | Link not working      |
 | T-2a       | Navigation bar        | Click each menu item                  | User is taken to correct page          | As expected | Pass      | Fixed broken links      |
 | T-3        | Application form      | Fill and submit form with valid input | Form submits and shows success message | Form submits      | Pass      |                       |
-| T-4        | Form submit           | Pressing submit button redirects to thank you page   | redirect to thank you page            | As expected | Passed      | Could add form validation to ensure |
+| T-4        | Form submit           | Pressing submit button redirects to thank you page   | redirect to thank you page            | As expected | Passed      | Could add form validation to ensure fields filled out correctly |
 | T-5        | Mobile responsiveness | Open site on mobile device            | Layout adjusts to mobile screen        | Layout good       | Pass      |                       |
 | T-6        | Mobile navigation | click hamburger menu on mobile view           | hamburger menu opens       | As expected      | Pass      |                       |
+| T-7        | Image loading | Open webpages to see if images load           | Images load properly       | Images show alt text (didn't load properly)      | Fail      |   Image links not working                    |
+| T-7a        | Image loading | Open webpages to see if images load           | Images load properly       | Images load sucessfully      | Pass      |   fixed incorrect image links                    |
 
 ### Usability testing feedback
 
@@ -159,9 +161,41 @@ I have fully met all the basic requirements that the client had requested, I hav
 
 This evaluation assesses the final website against the client's requirements, which included: a profile of the company, profiles of existing trainee developers, job specifications and required qualifications, an online applciation form and external links to web development courses. The purpose of this evaluation is to determine whether the website effectively meets these goals in terms of design, functionality, usablilty and performance.
 
-### Demonstration of individual responsibility and creativity
+The evaluation process involved a detailed review of each section of the website, functionality testting across multiple devices and browsers, user experience analysis and performance testing using tools such as webpagetest.org (which has various testing tools including Google Lighthouse and a comprehensive site performance test). A basic test plan was used to ensure each feature was tested methodically, and any bugs or issues were recorded and fixed. This evaluation will cover the website's strengths, weaknesses and any potential future improvements that can be made to the website.
 
-### Potential future improvements
+#### Requirements Checklist Summary
+
+| Requirement                         | Present? | Comments                                                                    |
+| ----------------------------------- | -------- | --------------------------------------------------------------------------- |
+| Company profile                     | Yes        | Homepage includes a professional summary of the company's goals and ethos.  |
+| Trainee web developer profiles      | Yes        | Profiles feature names, skills, and contact details with consistent layout. |
+| Job specifications & qualifications | Yes        | Job page lists positions with downloadable role descriptions.               |
+| Online application form             | Yes        | Form includes validation, dropdowns, and successful submission feedback.    |
+| Links to web development courses    | YEs        | Links to relevant courses included in sidebar and footer.                   |
+
+#### Design and User Experience Feedback Summary (UX)
+
+| Element                 | Rating (1–5) | Notes                                                                      |
+| ----------------------- | ------------ | -------------------------------------------------------------------------- |
+| Overall Layout          | 4            | Clean and structured layout; slight improvements in mobile spacing needed. |
+| Color Scheme & Branding | 5            | Cohesive branding with consistent colors and logo placement.               |
+| Font & Readability      | 4            | Easy to read on desktop; could use slightly larger font on mobile.         |
+| Navigation & Menus      | 5            | Clear, intuitive navigation bar with dropdown support.                     |
+| Accessibility           | 4            | Alt text used; contrast acceptable (could be improved)    |
+
+#### Performance and Optimisation Summary
+
+#### Potential future improvements
+
+- **Fix Form Validation:** Add validation checks for all required fields to ensure data is filled out correctly
+- **Improve Accessibility:** Add ARIA labels for better screen reader support
+
+
+#### Conclusion
+
+Overall, the website meets the client's core requirements and presents content in a clear, professional format. It performs well across various browsers and devices, offers a user friendly application form and integrates essential job and training information. Addressing the minor bugs, enhancing form validation and accessibility will further improve the website's quality and user experience. The project can be considered a successful implementation of the client's vision.
+
+### Demonstration of individual responsibility and creativity
 
 ### Peer and Tutor feedback responses - Document Feedback receieved.
 
