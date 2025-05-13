@@ -155,6 +155,10 @@ I have fully met all the basic requirements that the client had requested, I hav
 
 ### Usability testing feedback
 
+
+I distributed 2 Google forms in order to gather feedack regarding the website's usability features. The first form gathered information about the website's design as a whole and asked responders to comment on parts they like/dislike about the website. The second form was my testing form, where I asked responders to do actions and find specific webpages/elements, all of which were completed successfully. 
+Overall, the feedback I have recieved from usability testing has been postitive. The overall response to the website's design and navigation was that it's clean and intutive - each button does what you expect it to do. 
+
 # Evaluation and improvements
 
 ### Evaluation of Design & Optimised website against client requirements
@@ -197,5 +201,6 @@ Overall, the website meets the client's core requirements and presents content i
 
 ### Demonstration of individual responsibility and creativity
 
-### Peer and Tutor feedback responses - Document Feedback receieved.
+
+
 
