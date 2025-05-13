@@ -201,6 +201,6 @@ Overall, the website meets the client's core requirements and presents content i
 
 ### Demonstration of individual responsibility and creativity
 
-
+[![hotbeans_gantt_chart](readmeassets/Unit%2015-%20Assignment%202%20-%20D3%20Gantt%20Chart%20-%20Gantt%20Chart.pdf)]
 
 
