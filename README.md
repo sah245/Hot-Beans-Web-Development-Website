@@ -124,6 +124,10 @@ This optimisation was fairly simple to implement, I changed the button colours f
 |--------|--------|
 | [![Button_Before.png](https://i.postimg.cc/13Pm7p6s/Screenshot-2025-05-08-190155.png)](https://postimg.cc/nCRfC90P) | [![Button_After.png](https://i.postimg.cc/tRZ4sRpQ/Screenshot-2025-05-08-190146.png)](https://postimg.cc/PNHjcjC2) |
 
+Before the optimisation, I also created a google form to gather feedback regarding the overall usability of my website, tasking the responders to do certain actions on the website (such as finding the privacy policy, social media links, apply for one of the listed jobs etc.)
+
+[![google-form-results.png](https://i.postimg.cc/63fNHKJh/google-form-results.png)](https://postimg.cc/YG0V9JS4)
+
 
 ### Review of client requirements
 
@@ -187,6 +191,10 @@ The evaluation process involved a detailed review of each section of the website
 | Navigation & Menus      | 5            | Clear, intuitive navigation bar with dropdown support.                     |
 | Accessibility           | 4            | Alt text used; contrast acceptable (could be improved)    |
 
+The final summary feedback result was averaged from the responses I recieved from my google form, here are the results in a bar graph for each element:
+
+[![website-ratings.png](https://i.postimg.cc/pry5xqB3/website-ratings.png)](https://postimg.cc/N2qjk8Sx)
+
 #### Performance and Optimisation Summary
 
 #### Potential future improvements
@@ -203,4 +211,7 @@ Overall, the website meets the client's core requirements and presents content i
 
 [![hotbeans_gantt_chart](readmeassets/Unit%2015-%20Assignment%202%20-%20D3%20Gantt%20Chart%20-%20Gantt%20Chart.pdf)]
 
+In terms of time management, I was keeping myself on time during the analysis, planning and designing phases as I already had a vision for how I wanted my website to look and function. However, when it was time to code the website, I had a bit of trouble because I made a crucial mistake in my early design (where I placed each element manually as opposed to using flexboxes) which caused me to scrap my first website and start the coding again. This error caused the website's delivery to take 1 week longer then anticipated. 
+
+In the future, I should conduct more research on the most optimal methods for implementation, so I know how to deliver on my proposed designs and not waste time creating bad code.
 
